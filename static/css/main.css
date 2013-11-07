@@ -1,0 +1,47 @@
+footer, nav, header, section, aside, menu {
+    display: block
+}
+
+#left-column {
+    float: left;
+    width: 200px;
+    border: 1px red dashed;
+    padding: 5px;
+    margin: 5px;
+}
+
+#data {
+    float: left;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+#content {
+    float: left;
+    border: 1px blue dashed;
+    padding: 5px;
+    margin: 5px;
+}
+
+#add {
+    clear: both;
+    border: 1px green dashed;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+span.ref {
+    text-decoration: underline;
+}
+
+span.ref:hover {
+    cursor: pointer;
+    color: red;
+}
